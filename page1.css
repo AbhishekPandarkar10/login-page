@@ -1,0 +1,117 @@
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    min-height: 100vh;
+}
+div{
+    width: 47%;
+}
+span{
+    font-size: 24px;
+}
+#b1{
+    background-color: white;
+    height: 41rem;
+    margin-top: 10%;
+    margin-left: 25%;  
+    box-shadow: 0 0 10px rgb(38, 34, 34);  
+    margin-bottom: 7%;
+    border-radius: 0.5rem;
+    
+}
+.h3{
+    padding: 2%;
+    margin-left: 1rem;
+    font-size: 29px;
+    width: 10rem;
+    border-radius: 1pc;
+
+}
+input{
+    padding: 3%;
+    margin: 3%;
+    width: 80%;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    color: #888;
+    font-weight: bold;
+    box-shadow: 0 0 10px #888;
+    letter-spacing: 2px;
+}
+#a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+    margin: 2%;
+    height: 3rem;
+    
+}
+#a2{
+    width: 100%;
+    padding: 0%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#a3{
+    width: 100%;
+    padding: 0%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#a4{
+    width: 100%;
+    padding: 0%;
+    margin: 2%;
+}
+.h1{
+    margin-left: -9rem;
+    box-shadow: none;
+}
+label{
+    padding: 0%;
+    margin-left: 8rem;
+    font-size: 16px;
+    
+}
+.gender{
+    font-size: 24px;
+    margin-top: 4%;
+    margin: 0%;
+    margin-left: 3%;
+}
+button{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    font-size: 25px;
+    margin-left: 3%;
+    width: 90%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: 0.50rem;
+    border-style: solid;
+    margin-bottom: 0%;
+    
+}
+.img2{
+    padding: 0%;
+    height: 9rem;
+    margin-top: -20rem;
+    margin-left: 130%;
+    border: 1px solid black;
+    border-radius: 100rem;
+    box-shadow: 0 0 10px rgb(98, 221, 226);
+}
+a{
+    margin-left: 5%;
+    font-size: 23px;
+}
