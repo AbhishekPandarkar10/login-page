@@ -106,7 +106,8 @@ button{
     margin-top: 2rem;
     border-radius: 0.50rem;
     border-style: solid;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
+    box-shadow:0 0 10px #888;
     
 }
 .img2{
@@ -124,6 +125,7 @@ a{
     font-size: 20px;
 }
 .log{
+    padding: 15%;
     font-size: 20px;
     margin-left: 6rem;
 }
