@@ -2,7 +2,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(login.jpg);
+    background-image: url(loginimg.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -45,6 +45,7 @@ button{
     border: 1px solid black;
 }
 label{
+    color: white;
     margin-bottom: -1rem;
     margin-left: -13.5rem;
     font-size: 23px;
