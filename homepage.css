@@ -1,0 +1,78 @@
+body{
+    background-image: url(homepage3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    padding: 0.1%;
+    position: fixed;
+    width:100%;
+    margin-left: 0.1%;
+    font-size: 20px;
+}
+ul{
+    margin-left: 30rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-left: 14rem;
+}
+button{
+    border: none;
+    padding: 5%;
+    width: 7rem;
+    height: 2.5rem;
+    margin-left: 3rem;
+    font-size: 20px;
+    background-color:white;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 5px 5px 0px white;
+}
+li{
+    color: white;
+    text-decoration: underline;
+}
+.btn1{
+    margin-right: -10rem;
+}
+.img1{
+    width: 4rem;
+}
+#about{
+    color: white;
+}
+.img2{
+    margin-left: 1rem;
+    margin-top: 5rem;
+    backdrop-filter: blur(0px);
+    border-radius: 22rem;
+    filter: drop-shadow(30px 10px 0px black);
+}
+.h1{
+    color: white;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 65%;
+}
+p{
+    font-style: oblique;
+    color: white;
+    margin-top: -30%;
+    margin-left: 52%;
+    width: 45%;
+    font-size: 30px;
+    position: absolute;
+}
+
+
+
+
