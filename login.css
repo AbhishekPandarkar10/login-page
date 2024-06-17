@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(loginimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+form{
+        background: transparent;
+        backdrop-filter: blur(5px);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: 3px solid white;      
+        width: 400px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 2%;
+        border-radius: 1rem;
+        height: 28rem;
+        box-shadow: 15px 15px 10px  white;
+        
+}
+input{
+    width: 70%;
+    padding: 3%;
+    margin: 3%;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 17px;
+    
+}
+button{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    margin-top: 10%;
+    padding: 3%;
+    width: 70%;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid black;
+}
+label{
+    color: white;
+    margin-bottom: -1rem;
+    margin-left: -13.5rem;
+    font-size: 23px;
+}
+span{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    color: white;
+}
+.user{
+
+    height: 3rem;
+    margin-left: 20rem;
+    float: left;
+}
+.username{
+    background-position: right; 
+    background-image: url(contact1.jpg) ;
+    background-repeat: no-repeat;
+    background-position-x: 99.5%;
+    background-size: 35px;
+}
+.password{
+    background-position: right;
+    background-image: url(pass.jpg) ;
+    background-repeat: no-repeat;
+    background-position-x: 99.5%;
+    background-size: 30px;
+}
+.s1{
+    font-size: 20px;
+    margin: 1%;
+}
+.s2{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}

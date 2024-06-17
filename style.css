@@ -1,88 +1,78 @@
 body{
+    background-image: url(homepage3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    margin-top: 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-image: url(loginimg.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-form{
-        background: transparent;
-        backdrop-filter: blur(5px);
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border: 3px solid white;      
-        width: 400px; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 2%;
-        border-radius: 1rem;
-        height: 28rem;
-        box-shadow: 15px 15px 10px  white;
-        
-}
-input{
-    width: 70%;
-    padding: 3%;
-    margin: 3%;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
     background-color: transparent;
-    border: 1px solid white;
-    font-size: 17px;
-    
+    padding: 0.1%;
+    position: fixed;
+    width:100%;
+    margin-left: 0.1%;
+    font-size: 20px;
+}
+ul{
+    margin-left: 30rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-left: 14rem;
 }
 button{
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-    margin-top: 10%;
-    padding: 3%;
-    width: 70%;
-    border-radius: 1rem;
-    background-color: white;
+    border: none;
+    padding: 5%;
+    width: 7rem;
+    height: 2.5rem;
+    margin-left: 3rem;
     font-size: 20px;
+    background-color:white;
     border: 1px solid black;
+    color: black;
+    box-shadow: 5px 5px 0px white;
 }
-label{
+li{
     color: white;
-    margin-bottom: -1rem;
-    margin-left: -13.5rem;
-    font-size: 23px;
+    text-decoration: underline;
 }
-span{
-    margin-bottom: 2rem;
+.btn1{
+    margin-right: -10rem;
+}
+.img1{
+    width: 4rem;
+}
+#about{
+    color: white;
+}
+.img2{
+    margin-left: 1rem;
+    margin-top: 5rem;
+    backdrop-filter: blur(0px);
+    border-radius: 22rem;
+    filter: drop-shadow(30px 10px 0px black);
+}
+.h1{
+    color: white;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 65%;
+}
+p{
+    font-style: oblique;
+    color: white;
+    margin-top: -30%;
+    margin-left: 52%;
+    width: 45%;
     font-size: 30px;
-    color: white;
+    position: absolute;
 }
-.user{
 
-    height: 3rem;
-    margin-left: 20rem;
-    float: left;
-}
-.username{
-    background-position: right; 
-    background-image: url(contact1.jpg) ;
-    background-repeat: no-repeat;
-    background-position-x: 99.5%;
-    background-size: 35px;
-}
-.password{
-    background-position: right;
-    background-image: url(pass.jpg) ;
-    background-repeat: no-repeat;
-    background-position-x: 99.5%;
-    background-size: 30px;
-}
-.s1{
-    font-size: 20px;
-    margin: 1%;
-}
-.s2{
-    margin-left: 10px;
-    font-size: 20px;
-    color: white;
-}
+
+
+
